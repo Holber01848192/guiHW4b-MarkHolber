@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<!-- 
+Name: Mark Holber/UML CS/mark_holber@student.uml.edu
+Date: 10-25-2022
+File:index.html
+Description: Validation and modifications using jquery 
+-->
+
+<html lang="en">
+    
+<head>
+    <meta charset="utf-8">
+
+    <title>First Website</title>
+
+ <!--Import necessary files-->
+
+    <link rel="stylesheet" href="style.css" >
+     
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.19.1/additional-methods.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css" > 
+
+
+    <script src="script.js"></script>
+
+        
+  </head>
+
+<body> 
+    <div id="wrapper">
+        <header> 
+            <h1> Table</h1>
+        </header>   
+        
+        <h2> Please input number of rows and columns from -50 to 50.</h2>
+        <br>
+       <!--min="-50" max="50" required-->
+
+        <!--Table form-->
+
+        <form name="inputs" id="form1" action="/action_page.php">
+
+        <p id = "p1">Enter column minimum: </p> 
+        <input type="number" name="xMin" id="xMin">
+        <div id ="slider1" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content"></div>
+        <br>
+        <p id = "p2">Enter column maximum: </p> 
+        <input type="number" name="xMax" id="xMax">
+        <div id ="slider2"></div>
+        <br>
+        <p id = "p3">Enter row minimum: </p> 
+        <input type="number" name="yMin" id="yMin">
+        <div id ="slider3"></div>
+        <br>
+        <p id = "p4">Enter row maximum: </p> 
+        <input type="number" name="yMax" id="yMax">
+        <div id ="slider4"></div>
+        <br>
+        <br>
+
+        <!--<input name="Make Table" type = "button" value="Make Table" onclick = "validate()">-->
+      
+        <input name="save" id = "save" type = "button" value="Save">
+        <input name="delete" id = "delete" type = "button" value="Delete last tab">
+        <input name="deleteAll" id = "deleteAll" type = "button" value="Delete all tabs">
+
+         <!--<input name="Make Table" type = "button" value="Remove" onclick = "remove()">-->
+   
+        </form>
+
+        <p id = "output5"></p>
+
+
+         <!--Table output-->
+        <div id ="t1" >
+         <p> Please insert desired values in chart and press 'Make Table'</p>       
+        </div>
+
+        <br><br>
+        
+    </div>
+
+  
+
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+ <!--tab save-->
+
+ <div id="myTabs">
+    <ul id = ultab>
+        <li id = 1a><a href="#1">Tab1</a></li>
+        <li id = 2a><a href="#2">Tab2</a></li>
+        <li id = 3a><a href="#3">Tab3</a></li>
+        <li id = 4a><a href="#4">Tab4</a></li>
+        <li id = 5a><a href="#5">Tab5</a></li>
+        <li id = 6a><a href="#6">Tab6</a></li>
+        <li id = 7a><a href="#7">Tab7</a></li>
+        <li id = 8a><a href="#8">Tab8</a></li>
+        <li id = 9a><a href="#9">Tab9</a></li>
+        <li id = 10a><a href="#10">Tab10</a></li>
+
+    </ul>
+
+    <div id = "1"> </div>
+    <div id = "2"> </div>
+    <div id = "3"> </div>
+    <div id = "4"> </div>
+    <div id = "5"> </div>
+    <div id = "6"> </div>
+    <div id = "7"> </div>
+    <div id = "8"> </div>
+    <div id = "9"> </div>
+    <div id = "10"> </div>
+
+    </div>
+    
+
+   
+</body>

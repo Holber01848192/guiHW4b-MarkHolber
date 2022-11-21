@@ -1,0 +1,144 @@
+/*
+Name: Mark Holber/UML CS/mark_holber@student.uml.edu
+Date: 11-10-2022
+File: style.css
+Description: Validation and modifications using jquery
+*/
+
+
+/*slider css*/
+#slider1{
+    width:184px; height:23px; border:none; position:relative;
+    left:4px; top:4px;
+   
+   }
+   #slider1 .ui-slider-handle {
+    width:14px; height:30px; top:-4px;
+ 
+   }
+   #slider2{
+    width:184px; height:23px; border:none; position:relative;
+    left:4px; top:4px;
+   
+   }
+   #slider2 .ui-slider-handle {
+    width:14px; height:30px; top:-4px;
+ 
+   }
+   #slider3{
+    width:184px; height:23px; border:none; position:relative;
+    left:4px; top:4px;
+   
+   }
+   #slider3 .ui-slider-handle {
+    width:14px; height:30px; top:-4px;
+ 
+   }
+   #slider4{
+    width:184px; height:23px; border:none; position:relative;
+    left:4px; top:4px;
+   
+   }
+   #slider4 .ui-slider-handle {
+    width:14px; height:30px; top:-4px;
+ 
+   }
+
+
+/*html css*/
+
+#myTabs{
+    float: left;
+    max-height: 450px;
+    max-width: 100%;
+
+
+
+    overflow: auto;
+    text-align: right;
+    background-color: grey;
+    border: 10px solid black;
+
+}
+
+body {
+    background-color: rgb(114, 173, 218);
+}
+
+#t1 td:first-child {
+    background-color: black;
+    color: white;
+    position: sticky;
+
+
+
+}
+#t1 tr:first-child {
+  
+    background-color: black;
+    color: white;
+    position: sticky;
+
+
+    
+
+}
+
+
+table {
+
+    background-color: grey;
+    border: 5px solid black;
+}
+
+td {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;;
+    border: 2px solid black;
+}
+
+
+
+#t1 {
+
+    max-height: 450px;
+    max-width: 100%;
+    float: left;
+
+
+    overflow: auto;
+    text-align: right;
+    background-color: grey;
+    border: 10px solid black;
+
+}
+
+
+
+header {
+    margin-bottom: 150px;
+}
+
+#wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2{
+    text-align: left;
+}
+
+.output5 p{
+    margin-left: 1500px;
+}
+
+p {
+    padding: 10px;
+}
+
